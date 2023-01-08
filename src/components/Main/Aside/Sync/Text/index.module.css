@@ -1,0 +1,11 @@
+.text {
+  @apply flex flex-col text-center mb-5;
+}
+
+.title {
+  @apply font-bold leading-none;
+}
+
+.description {
+  @apply text-xs mt-2 px-2 leading-tight;
+}
