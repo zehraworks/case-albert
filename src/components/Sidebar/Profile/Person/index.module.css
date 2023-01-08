@@ -1,0 +1,12 @@
+.person {
+    @apply flex flex-col items-center
+}
+
+.name {
+    @apply text-black font-bold
+}
+
+.img {
+    @apply h-14 w-14 bg-gray-300 rounded-full border-white border-4 mb-1
+}
+

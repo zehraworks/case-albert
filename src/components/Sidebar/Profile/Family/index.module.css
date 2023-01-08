@@ -1,0 +1,15 @@
+.family {
+  @apply flex flex-col items-center mt-2;
+}
+
+.text {
+  @apply text-gray-400 text-xs;
+}
+
+.members {
+  @apply flex;
+}
+
+.img {
+  @apply flex h-6 w-6 bg-gray-600 m-1 rounded-full border-2 border-white;
+}

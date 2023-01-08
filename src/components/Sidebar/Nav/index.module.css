@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col justify-between h-full mt-8 ;
+}
+
+.nav {
+  @apply text-base hover:font-bold my-6;
+}
+
+.logout {
+  @apply flex items-center mb-10;
+}
+
+.text {
+  @apply mr-5;
+}
