@@ -1,0 +1,15 @@
+.card {
+    @apply shadow-md w-60 py-3 px-3 rounded-2xl
+}
+
+.date {
+    @apply inline-flex bg-orange-400 text-white text-sm px-2 rounded-xl
+}
+
+.scan {
+    @apply font-bold text-base
+}
+
+.location {
+    @apply text-sm font-light
+}
