@@ -1,0 +1,7 @@
+.container {
+    @apply flex
+}
+
+.icon {
+    @apply h-5 w-5 mx-2
+}

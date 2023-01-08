@@ -1,10 +1,13 @@
-import React from 'react'
-import { Overview } from '../Overview'
+import React from "react";
+/* import styles from "./index.module.css";
+ */import { Left } from "./Left";
+import { Right } from "./Right";
 
 export function Header() {
   return (
-    <div className='h-20 bg-slate-200'>
-       <h1>Header</h1>
+    <div className="flex justify-between h-20 ">
+      <Left />
+      <Right />
     </div>
-  )
+  );
 }

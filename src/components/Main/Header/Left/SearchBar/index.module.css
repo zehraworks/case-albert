@@ -1,0 +1,11 @@
+.search {
+    @apply flex
+}
+
+.icon {
+    @apply h-6 w-6 mr-3
+}
+
+.bar{
+    @apply w-56
+}

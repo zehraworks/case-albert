@@ -1,0 +1,11 @@
+.right {
+    @apply flex justify-center items-center bg-gray-200 rounded-2xl w-60 mx-8 my-4
+}
+
+.text {
+    @apply mr-2
+}
+
+.img {
+    @apply h-6 w-6 bg-purple-500 rounded-full
+}
