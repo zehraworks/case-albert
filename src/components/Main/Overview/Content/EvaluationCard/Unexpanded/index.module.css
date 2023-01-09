@@ -1,0 +1,15 @@
+.box {
+  @apply absolute -mt-8 flex flex-col items-center text-white;
+}
+
+.svg {
+  @apply h-14 w-14 bg-pink-400 rounded-full border-4 border-white;
+}
+
+.system {
+  @apply inline-flex text-xs leading-none;
+}
+
+.score {
+  @apply font-bold mt-1 leading-none;
+}

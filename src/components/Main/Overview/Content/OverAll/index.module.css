@@ -1,0 +1,11 @@
+.overall {
+    @apply flex flex-col justify-center items-center bg-white w-20 h-20 rounded-full
+}
+
+.score {
+    @apply text-lg font-bold leading-none
+}
+
+.status {
+    @apply text-xs
+}

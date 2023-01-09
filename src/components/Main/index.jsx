@@ -8,7 +8,7 @@ export function Main() {
   return (
     <div className="h-screen w-full p-8">
       <Header />
-      <div className="flex bg-red-400 h-[450px]">
+      <div className="flex h-[450px]">
         <Overview />
         <Aside />
       </div>
