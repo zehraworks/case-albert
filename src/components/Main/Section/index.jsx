@@ -1,14 +1,17 @@
 import React from "react";
 import { ScanCard } from "./ScanCard";
 import { Text } from "./Text";
+import styles from "./index.module.css"
 
 export function Section() {
   return (
-    <div className="h-32 flex justify-between items-center">
+    <div className={styles.section}>
       <Text />
-      <ScanCard />
-      <ScanCard />
-      <ScanCard />
+      <div className={styles.cards}>
+        <ScanCard />
+        <ScanCard />
+        <ScanCard />
+      </div>
     </div>
   );
 }

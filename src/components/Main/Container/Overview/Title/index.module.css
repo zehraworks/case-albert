@@ -1,0 +1,11 @@
+.title {
+  @apply flex justify-between items-center h-24 px-10 text-2xl;
+}
+
+.text {
+  @apply font-bold;
+}
+
+.icon {
+  @apply text-gray-700;
+}

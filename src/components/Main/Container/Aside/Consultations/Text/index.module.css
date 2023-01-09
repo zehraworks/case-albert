@@ -1,0 +1,12 @@
+.text {
+    @apply flex text-justify justify-between text-lg md:text-sm
+}
+
+.title{
+    @apply font-bold 
+}
+
+.all {
+    @apply text-orange-500 
+    
+}

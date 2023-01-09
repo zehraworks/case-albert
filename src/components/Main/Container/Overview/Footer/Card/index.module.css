@@ -1,0 +1,11 @@
+.card {
+    @apply flex flex-col justify-center h-20 w-1/3 sm:w-1/4 md:mx-2 px-4
+}
+
+.name{
+    @apply font-bold text-sm sm:text-base 
+}
+
+.score {
+    @apply font-light text-xs sm:text-sm
+}

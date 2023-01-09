@@ -1,0 +1,7 @@
+.overview {
+    @apply flex flex-col justify-center w-full lg:w-3/4 bg-gray-100 rounded-3xl
+}
+
+.line {
+   @apply mb-4 w-11/12 mx-auto
+}

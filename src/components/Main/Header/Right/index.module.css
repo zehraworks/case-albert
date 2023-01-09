@@ -1,0 +1,3 @@
+.right {
+  @apply flex justify-center items-center w-1/4;
+}

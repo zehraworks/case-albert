@@ -1,0 +1,27 @@
+.card {
+  @apply flex justify-between items-center mt-2;
+}
+
+.profile {
+  @apply flex items-center;
+}
+
+.info {
+  @apply leading-[0.5]
+}
+
+.img {
+  @apply h-10 w-10 md:h-7 md:w-7 rounded-full bg-purple-600 mr-2;
+}
+
+.name {
+  @apply font-medium text-sm leading-none;
+}
+
+.time {
+  @apply font-light text-xs leading-none;
+}
+
+.icon{
+    @apply w-6 h-6 md:w-4 md:h-4 text-orange-500 bg-orange-100 rounded-full
+}

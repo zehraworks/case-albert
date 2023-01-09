@@ -1,17 +1,14 @@
 import React from "react";
-import { Aside } from "./Aside";
 import { Header } from "./Header";
-import { Overview } from "./Overview";
 import { Section } from "./Section";
+import { Container } from "./Container";
+import styles from "./index.module.css";
 
 export function Main() {
   return (
-    <div className="h-screen w-full p-8">
+    <div className={styles.main}>
       <Header />
-      <div className="flex h-[450px]">
-        <Overview />
-        <Aside />
-      </div>
+      <Container />
       <Section />
     </div>
   );

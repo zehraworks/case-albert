@@ -1,0 +1,3 @@
+.main {
+  @apply flex flex-col justify-start items-start h-auto lg:h-screen w-full lg:p-8;
+}

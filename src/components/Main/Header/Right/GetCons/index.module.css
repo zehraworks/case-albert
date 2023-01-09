@@ -1,11 +1,11 @@
 .right {
-    @apply flex justify-center items-center bg-gray-200 rounded-2xl w-60 mx-8 my-4
+  @apply flex justify-center items-center bg-gray-100 rounded-2xl w-auto h-6 md:h-8 lg:h-10 px-4 lg:px-7 md:mx-4;
 }
 
 .text {
-    @apply mr-2
+  @apply text-[10px] sm:text-[12px] lg:text-[17px] text-center font-semibold leading-none md:mr-1;
 }
 
 .img {
-    @apply h-6 w-6 bg-purple-500 rounded-full
+  @apply sm:h-4 sm:w-4 md:w-5 md:h-5 bg-purple-500 rounded-full;
 }

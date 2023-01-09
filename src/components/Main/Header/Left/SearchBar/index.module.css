@@ -1,11 +1,11 @@
 .search {
-    @apply flex
+  @apply flex w-1/2;
 }
 
 .icon {
-    @apply h-6 w-6 mr-3
+  @apply h-6 w-6 mr-3;
 }
 
-.bar{
-    @apply w-56
+.bar {
+  @apply min-w-[50px];
 }

@@ -1,0 +1,15 @@
+.footer {
+  @apply flex flex-col md:flex-row justify-center items-center my-2;
+}
+
+.other {
+  @apply flex text-center items-center w-48 text-lg font-thin uppercase p-1 lg:p-4;
+}
+
+.cards {
+  @apply flex justify-center items-center;
+}
+
+hr {
+  @apply w-3 sm:w-5 md:w-10 items-center;
+}

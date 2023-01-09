@@ -1,0 +1,11 @@
+.content {
+    @apply h-56
+}
+
+.expanded {
+    @apply absolute
+}
+
+.unexpanded {
+    @apply absolute -mr-3
+}
