@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Main } from "./components/Main";
 import { Sidebar } from "./components/Sidebar";
+import { useGlobal } from "./context/GlobalContext";
+import data from "../public/data.json";
 
 function App() {
+  const { value, setValue } = useGlobal();
+  useEffect(() => {
+    setValue(data.user);
+  }, []);
+  console.log(typeof value);
+  console.log(value?.name);
   return (
     <div className="flex">
-      <Sidebar />
-      <Main />
+      {value ? (
+        <>
+          <Sidebar />
+          <Main />
+        </>
+      ) : (
+        console.log("loading")
+      )}
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from "./index.module.css"
 
-export function Card() {
+export function Card({name, point}) {
   return (
     <div className={styles.card}>
-        <h4 className={styles.name}>Name Surname</h4>
-        <p className={styles.score}>80 points</p>
+        <h4 className={styles.name}>{name}</h4>
+        <p className={styles.score}>{point} points</p>
     </div>
   )
 }
