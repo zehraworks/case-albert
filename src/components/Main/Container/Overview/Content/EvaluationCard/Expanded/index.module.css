@@ -1,19 +1,35 @@
-.container {
-  @apply flex flex-col items-center;
-}
-
 .box {
-  @apply flex flex-col items-center justify-center text-center bg-gray-900 h-40 w-28 rounded-2xl;
+  @apply flex flex-col items-center justify-center flex-wrap;
 }
 
 .component {
-  @apply absolute;
+  @apply relative ;
+}
+
+.content {
+  visibility: hidden;
+}
+
+.component:hover + .content {
+  visibility: visible;
+}
+
+.component:hover + .content > * {
+  visibility: visible;
+}
+
+.content:hover {
+  visibility: visible;
+}
+
+.content {
+  @apply flex flex-col items-center justify-center text-center bg-gray-900 h-32 w-24 md:h-40 md:w-32 rounded-2xl ;
 }
 
 .text {
-  @apply text-xs text-white font-thin px-3 mt-8;
+  @apply text-[10px] sm:text-[12px] text-white font-thin px-3 mt-10;
 }
 
 .btn {
-    @apply bg-teal-500 absolute mt-40 px-3 py-1 text-xs text-white font-bold rounded-md
+  @apply bg-teal-500 absolute mt-32 px-2 p-0.5 w-14 sm:p-1 md:w-16 md:mt-40 md:text-sm text-[10px] text-white font-bold rounded-md;
 }

@@ -1,11 +1,11 @@
 .overall {
-    @apply flex flex-col justify-center items-center bg-white w-20 h-20 rounded-full
+    @apply flex flex-col w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 justify-center items-center bg-white rounded-full mx-2
 }
 
 .score {
-    @apply text-lg font-bold leading-none
+    @apply text-sm lg:text-lg font-bold leading-none
 }
 
 .status {
-    @apply text-xs
+    @apply  text-[8px] md:text-xs
 }

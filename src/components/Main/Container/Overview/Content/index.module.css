@@ -1,11 +1,7 @@
 .content {
-    @apply h-56
+    @apply h-56 w-full flex justify-between flex-wrap p-6 
 }
 
 .expanded {
-    @apply absolute
-}
 
-.unexpanded {
-    @apply absolute -mr-3
 }
