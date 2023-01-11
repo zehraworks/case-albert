@@ -1,5 +1,5 @@
 .box {
-  @apply absolute left-1/2 -mx-5 w-10 h-10 md:w-14 md:h-14 md:-mx-7 -mt-2 flex flex-col justify-center items-center text-black  
+  @apply absolute left-1/2 -mx-5 w-10 h-10 md:w-14 md:h-14 md:-mx-7 -mt-2 flex flex-col justify-center items-center;
 }
 
 .svg {
@@ -7,15 +7,11 @@
 }
 
 .score {
-  @apply text-xs md:text-base text-black font-bold mt-1 sm:mt-0 leading-none;
+  @apply text-xs md:text-base font-bold mt-1 sm:mt-0 leading-none;
 }
 
 .system {
-  @apply inline-flex text-[10px] sm:text-xs text-black sm:-mt-1 leading-none;
-}
-
-.box:hover > * {
-  @apply text-white;
+  @apply inline-flex text-[10px] sm:text-xs sm:-mt-1 leading-none;
 }
 
 .box:hover > img {

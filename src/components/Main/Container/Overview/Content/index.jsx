@@ -20,11 +20,6 @@ export function Content() {
         );
       })}
       <OverAll />
-      {/* <Expanded className={styles.expanded} />
-      <Unexpanded className={styles.unexpanded} />
-      <Unexpanded className={styles.unexpanded} />
-      <Unexpanded />
-       */}
     </div>
   );
 }

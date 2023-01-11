@@ -1,36 +1,40 @@
+.container {
+  @apply h-48;
+}
+
 .box {
-  @apply flex flex-col items-center justify-center flex-wrap hover:text-white;
+  @apply flex flex-col items-center justify-start flex-wrap hover:text-white;
+}
+
+.box:hover .content {
+  @apply h-32 md:h-40;
+}
+
+.box:hover .content .btn {
+  @apply visible;
+}
+
+.box:hover .content .text {
+  @apply visible;
+}
+
+.box:hover .component {
+  @apply text-white;
 }
 
 .component {
-  @apply relative;
+  @apply relative text-black z-10;
 }
 
 .content {
-  visibility: hidden;
-}
-
-.component:hover + .content {
-  visibility: visible;
-
-}
-
-.component:hover + .content > * {
-  visibility: visible;
-}
-
-.content:hover {
-  visibility: visible;
-}
-
-.content {
-  @apply flex flex-col items-center justify-center text-center bg-gray-900 h-32 w-24 md:h-40 md:w-32 rounded-2xl;
+  transition: height 0.1s ease;
+  @apply flex flex-col items-center justify-center text-center bg-gray-900 h-0 w-24 md:w-32 rounded-2xl;
 }
 
 .text {
-  @apply text-[10px] sm:text-[12px] text-white font-thin px-3 mt-10;
+  @apply invisible text-[10px] sm:text-[12px] text-white font-thin px-3 mt-10;
 }
 
 .btn {
-  @apply bg-teal-500 absolute mt-32 px-2 p-0.5 w-14 sm:p-1 md:w-16 md:mt-40 md:text-sm text-[10px] text-white font-bold rounded-md;
+  @apply invisible bg-teal-500 absolute mt-32 px-2 p-0.5 w-14 sm:p-1 md:w-16 md:mt-40 md:text-sm text-[10px] text-white font-bold rounded-md;
 }
