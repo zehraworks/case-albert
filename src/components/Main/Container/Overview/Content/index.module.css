@@ -1,5 +1,5 @@
 .content {
-    @apply h-56 w-full flex justify-between flex-wrap p-6 
+    @apply h-full w-full flex justify-between flex-wrap p-6 gap-y-4 md:gap-y-10
 }
 
 .expanded {

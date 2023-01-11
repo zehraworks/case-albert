@@ -6,7 +6,7 @@ export function SearchBar() {
   return (
     <div className={styles.search}>
         <GoSearch className={styles.icon}/> 
-        <input type="text" placeholder='Enter your search request' className={styles.bar} />
+        <input type="text" placeholder='Search' className={styles.bar} />
     </div>
   )
 }

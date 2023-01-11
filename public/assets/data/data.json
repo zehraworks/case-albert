@@ -4,27 +4,27 @@
     "photo": "https://i.pravatar.cc/300/face",
     "overview": [
       {
-        "icon": "/public/assets/icons/lung.svg",
+        "icon": "/assets/icons/lung.svg",
         "name": "lungs",
         "value": 65
       },
       {
-        "icon":"/public/assets/icons/heart.svg",
+        "icon":"/assets/icons/heart.svg",
         "name": "heart",
         "value": 96
       },
       {
-        "icon":"/public/assets/icons/tension.svg",
+        "icon":"/assets/icons/tension.svg",
         "name": "pressure",
         "value": 49
       },
       {
-        "icon":"/public/assets/icons/blood.svg",
+        "icon":"/assets/icons/blood.svg",
         "name": "blood",
         "value": 87
       },
       {
-        "icon":"/public/assets/icons/eye.svg",
+        "icon":"/assets/icons/eye.svg",
         "name": "vision",
         "value": 88
       }

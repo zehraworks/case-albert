@@ -1,5 +1,5 @@
 .card {
-  @apply flex justify-between items-center mt-2;
+  @apply flex justify-between items-center mt-2 gap-x-4;
 }
 
 .profile {
@@ -23,5 +23,5 @@
 }
 
 .icon{
-    @apply w-6 h-6 md:w-4 md:h-4 text-orange-500 bg-orange-100 rounded-full
+    @apply w-6 h-6  text-orange-500 bg-orange-100 rounded-full
 }

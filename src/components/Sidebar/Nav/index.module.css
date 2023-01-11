@@ -1,9 +1,13 @@
 .container {
-  @apply flex flex-col justify-between h-full mt-8 ;
+  @apply flex flex-col justify-between h-full mt-8;
+}
+
+.active {
+  @apply text-base font-bold my-6 cursor-pointer;
 }
 
 .nav {
-  @apply text-base hover:font-bold my-6;
+  @apply text-base hover:font-bold my-6 cursor-pointer;
 }
 
 .logout {

@@ -1,9 +1,9 @@
 .box {
-  @apply flex flex-col items-center justify-center flex-wrap;
+  @apply flex flex-col items-center justify-center flex-wrap hover:text-white;
 }
 
 .component {
-  @apply relative ;
+  @apply relative;
 }
 
 .content {
@@ -12,6 +12,7 @@
 
 .component:hover + .content {
   visibility: visible;
+
 }
 
 .component:hover + .content > * {
@@ -23,7 +24,7 @@
 }
 
 .content {
-  @apply flex flex-col items-center justify-center text-center bg-gray-900 h-32 w-24 md:h-40 md:w-32 rounded-2xl ;
+  @apply flex flex-col items-center justify-center text-center bg-gray-900 h-32 w-24 md:h-40 md:w-32 rounded-2xl;
 }
 
 .text {

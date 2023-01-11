@@ -10,17 +10,13 @@ function App() {
   useEffect(() => {
     setValue(data.user);
   }, []);
-  console.log(typeof value);
-  console.log(value?.name);
   return (
     <div className="flex">
-      {value ? (
+      {value && (
         <>
           <Sidebar />
           <Main />
         </>
-      ) : (
-        console.log("loading")
       )}
     </div>
   );

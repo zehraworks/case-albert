@@ -1,9 +1,9 @@
 .box {
-  @apply absolute left-1/2 -mx-5 w-10 h-10 md:w-14 md:h-14 md:-mx-7 -mt-2 flex flex-col justify-center items-center text-black;
+  @apply absolute left-1/2 -mx-5 w-10 h-10 md:w-14 md:h-14 md:-mx-7 -mt-2 flex flex-col justify-center items-center text-black  
 }
 
 .svg {
-  @apply h-10 w-10 md:h-14 md:w-14 bg-purple-300 p-2 md:p-3 rounded-full border-2 sm:border-2 border-white hover:-translate-y-1 hover:scale-110 duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none;
+  @apply h-10 w-10 md:h-14 md:w-14 bg-rose-300 p-2 md:p-3 rounded-full border-2 sm:border-2 border-white hover:-translate-y-1 hover:scale-110 duration-300;
 }
 
 .score {
@@ -15,5 +15,9 @@
 }
 
 .box:hover > * {
-  @apply text-white
+  @apply text-white;
+}
+
+.box:hover > img {
+  @apply bg-teal-500;
 }
