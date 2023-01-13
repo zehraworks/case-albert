@@ -12,6 +12,7 @@ This is a case given by Albert Health.
 ## Future Plans
 
 - Functional searchbar
+- Side Drawer on mobile
 - Routing by react-router
 - Overview design by [react-orbits](https://github.com/1pedro/react-orbits) package
 
